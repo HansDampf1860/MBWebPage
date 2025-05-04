@@ -1,0 +1,76 @@
+
+/* 
+#F1FDF8 hell
+#D0D59D
+#F2E074
+#E17E06
+#3A5B26 dunkel
+
+#77B254 grün
+
+Adobe Colorwheel triade zb.
+##E60800 rot
+#913330 durnkelrot
+#3C2828 schwarzrot
+#edfdea sehr hellgrün
+##00E552 hellgrün
+##29A655 grün
+##336645 moosgrün
+*/
+
+body{
+    background-color:#fff;
+}
+
+h1{
+    color: #4B4666;
+}
+
+.serifStyle{
+    font-family: "GFS Didot", serif;
+
+}
+
+.sanSerifStyle{    
+    font-family: "Gill Sans";
+}
+
+.titleMenu {
+    background-color:#edfdea;
+    display: flex;   
+    gap: 10px;    
+    justify-content: space-around; 
+    margin-top: 5px;
+    /* border: #336645; */
+    
+}
+.titleMenuElement{
+    /* background-color:#29A65580; */
+    border-radius: 2px;
+    color: #3C2828;
+    font-size: 15px;
+    text-decoration: unset;
+    font-weight: bolder;
+    
+    /* border: 2px solid #133E87;
+    border-radius: 5px; */
+    width: 80px;
+    margin:  5px ;
+    padding: 3px;
+    text-align: center;
+}
+
+/* Fusszeile */
+  
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #29A655;
+    color: #edfdea;
+    /* font-size: 14px; */
+
+}
+footer > p {    
+    margin-bottom: 0;
+}
