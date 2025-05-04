@@ -40,8 +40,10 @@ h1{
     font-family: Verdana;
 }
 
+/* Titelmenü */
 .titleMenu {
     background-color:#edfdea;
+    text-transform: uppercase;
     display: flex;   
     gap: 10px;    
     justify-content: space-around; 
@@ -74,8 +76,20 @@ h1{
     background-color:#29A65580;
 }
 
-/* Fusszeile */
-  
+/* Rezeptübersicht */
+.pictureSection{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+
+}
+.pictureSection > div > img{
+    
+    height: 200px
+}
+/* Fusszeile */  
 footer {
     display: flex;
     justify-content: center;
@@ -87,6 +101,7 @@ footer {
     border-top: 1px solid #336645;    
     border-bottom: 1px solid #336645;
 
+    margin-top: 20px
 }
 footer > p {    
     margin-bottom: 0;
