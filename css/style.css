@@ -78,16 +78,15 @@ h1{
 
 /* Rezeptübersicht */
 .pictureSection{
-    display: flex;
+    display: flex;    
     gap:10px;
     flex-wrap: wrap;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-
-
-}
-.pictureSection > div > img{
     
-    height: 200px
+    font-size: 12px;
+}
+
+.pictureSection > div > img{
+    width: 200px;;
 }
 /* Fusszeile */  
 footer {
