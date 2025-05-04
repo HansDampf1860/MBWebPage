@@ -9,13 +9,13 @@
 #77B254 grün
 
 Adobe Colorwheel triade zb.
-##E60800 rot
+#E60800 rot
 #913330 durnkelrot
 #3C2828 schwarzrot
 #edfdea sehr hellgrün
-##00E552 hellgrün
-##29A655 grün
-##336645 moosgrün
+#00E552 hellgrün
+#29A655 grün
+#336645 moosgrün
 */
 
 body{
@@ -24,15 +24,20 @@ body{
 
 h1{
     color: #4B4666;
+    letter-spacing: 1px;
 }
 
 .serifStyle{
     font-family: "GFS Didot", serif;
+    /* font-family: "Gill Sans"; */
 
 }
 
 .sanSerifStyle{    
-    font-family: "Gill Sans";
+    font-family: Tahoma;
+    
+    /* letter-spacing: 1px; */
+    font-family: Verdana;
 }
 
 .titleMenu {
@@ -41,16 +46,20 @@ h1{
     gap: 10px;    
     justify-content: space-around; 
     margin-top: 5px;
-    /* border: #336645; */
+    
+    border-top: 1px solid #336645;    
+    border-bottom: 1px solid #336645;
     
 }
 .titleMenuElement{
     /* background-color:#29A65580; */
     border-radius: 2px;
     color: #3C2828;
+    color: #336645;
     font-size: 15px;
+    /* font-size: 18px; */
     text-decoration: unset;
-    font-weight: bolder;
+    font-weight: bold;
     
     /* border: 2px solid #133E87;
     border-radius: 5px; */
@@ -58,6 +67,11 @@ h1{
     margin:  5px ;
     padding: 3px;
     text-align: center;
+}
+
+.activeTitleElement{
+    color: #3C2828; 
+    background-color:#29A65580;
 }
 
 /* Fusszeile */
@@ -68,7 +82,10 @@ footer {
     padding: 5px;
     background-color: #29A655;
     color: #edfdea;
-    /* font-size: 14px; */
+    letter-spacing: 1px;
+    
+    border-top: 1px solid #336645;    
+    border-bottom: 1px solid #336645;
 
 }
 footer > p {    
